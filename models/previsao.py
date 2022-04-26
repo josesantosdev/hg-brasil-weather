@@ -76,9 +76,39 @@ class Precisao:
         def velocidade_vento(self, value):
             self.__velocidade_vento = value
 
-        de(self):
-        return
-            @property
+        @property
+        def sunrise(self):
+            return self.__sunrise
+
+        @sunrise.setter
+        def sunrise(self, value):
+            self.__sunrise = value
+
+        @property
+        def sunset(self):
+            return self.__sunset
+
+        @sunset.setter
+        def sunset(self, value):
+            self.__sunset = value
+
+        @property
+        def condicao(self):
+            return self.__condicao
+
+        @condicao.setter
+        def condicao(self, value):
+            self.__condicao = value
+
+        @property
+        def forecast(self):
+            return self.__forecast
+
+        @forecast.setter
+        def forecast(self, value):
+            self.__forecast = value
+
+
 
 
 
